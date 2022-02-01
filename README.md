@@ -1,9 +1,9 @@
-# Sudoku Toolkit
+# Sudoku Solver
 
 ## Description
 
-This library provides tools for generating, solving, rating and mining sudoku puzzles.
+This library provides tools for generating, solving, and rating sudoku puzzles.
 
 It is currently under construction.
 
-https://github.com/jimbali/sudoku-toolkit
+https://github.com/jimbali/sudoku-solver

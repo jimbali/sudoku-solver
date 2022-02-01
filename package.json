@@ -1,17 +1,12 @@
 {
-  "bin": {
-    "mine": "dist/mine.js"
-  },
   "dependencies": {
     "@algorithm.ts/sudoku": "^1.0.23",
-    "@types/node": "^14.14.14",
-    "dotenv": "^10.0.0",
-    "mongodb": "^4.2.2",
     "sudoku-master": "^0.0.3"
   },
   "description": "Toolkit for generating, solving, rating and mining sudoku puzzles",
   "devDependencies": {
     "@types/jest": "^27.4.0",
+    "@types/node": "^14.14.14",
     "@types/ramda": "^0.27.34",
     "jest": "^27.4.7",
     "ts-jest": "^27.1.3",
@@ -22,10 +17,13 @@
   ],
   "license": "ISC",
   "main": "dist/src/index.js",
-  "name": "sudoku-toolkit",
+  "name": "@jimbali/sudoku-solver",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimbali/sudoku-toolkit"
+    "url": "https://github.com/jimbali/sudoku-solver"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsc",
@@ -33,5 +31,5 @@
     "test": "jest"
   },
   "typings": "dist/src",
-  "version": "0.1.3"
+  "version": "0.1.0"
 }
